@@ -8,6 +8,7 @@ import { ProfileComponent } from './profile/profile.component';
 import { HeaderComponent } from './header/header.component';
 
 import { ListasDeRepositorioComponent } from './listas-de-repositorio/listas-de-repositorio.component';
+import { AsideComponent } from './aside/aside.component';
 
 
 @NgModule({
@@ -17,7 +18,9 @@ import { ListasDeRepositorioComponent } from './listas-de-repositorio/listas-de-
     ProfileComponent,
     HeaderComponent,
 
-    ListasDeRepositorioComponent
+    ListasDeRepositorioComponent,
+
+    AsideComponent
 
   ],
   imports: [
