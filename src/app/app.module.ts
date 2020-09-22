@@ -15,7 +15,7 @@ import { ListasDeRepositorioComponent } from './listas-de-repositorio/listas-de-
     AppComponent,
 
     ProfileComponent,
-    HeaderComponent
+    HeaderComponent,
 
     ListasDeRepositorioComponent
 
