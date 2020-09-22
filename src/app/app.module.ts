@@ -9,6 +9,7 @@ import { HeaderComponent } from './header/header.component';
 
 import { ListasDeRepositorioComponent } from './listas-de-repositorio/listas-de-repositorio.component';
 import { AsideComponent } from './aside/aside.component';
+import { UsuarioComponent } from './usuario/usuario.component';
 
 
 @NgModule({
@@ -20,7 +21,9 @@ import { AsideComponent } from './aside/aside.component';
 
     ListasDeRepositorioComponent,
 
-    AsideComponent
+    AsideComponent,
+
+    UsuarioComponent
 
   ],
   imports: [
