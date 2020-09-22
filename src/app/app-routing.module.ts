@@ -3,15 +3,14 @@ import { Routes, RouterModule } from '@angular/router';
 import { ListasDeRepositorioComponent } from './listas-de-repositorio/listas-de-repositorio.component';
 import { ProfileComponent } from './profile/profile.component';
 
-
 const routes: Routes = [
-  { path: '', redirectTo: 'perfil', pathMatch:'full'},
-  { path: 'perfil' , component: ProfileComponent},
-  { path: 'repositorio', component: ListasDeRepositorioComponent},
+  { path: '', redirectTo: 'perfil', pathMatch: 'full' },
+  { path: 'perfil', component: ProfileComponent },
+  { path: 'repositorio', component: ListasDeRepositorioComponent },
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}
