@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "devops"
+    }
+  },
+  "defaultProject": "devops",
+  "cli": {
+    "analytics": false
+  }
 }
